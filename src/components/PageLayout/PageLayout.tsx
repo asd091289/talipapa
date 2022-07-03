@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 
 import { Navbar, Footer } from "../../layout";
+import { Body } from "../../layout/Body";
 
 interface PageLayoutProps {
   children: ReactElement;
