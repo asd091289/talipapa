@@ -1,11 +1,11 @@
 import { ReactElement } from "react";
 
-import { PageLayout } from "./components";
+import LandingPage from "./screens/landing-page";
 
 const App = (): ReactElement => {
   return (
     <>
-      <PageLayout />
+      <LandingPage />
     </>
   );
 };

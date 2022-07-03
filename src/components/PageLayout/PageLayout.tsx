@@ -2,10 +2,17 @@ import { ReactElement } from "react";
 
 import { Navbar, Footer } from "../../layout";
 
-export const PageLayout = (): ReactElement => {
+interface PageLayoutProps {
+  children: ReactElement;
+}
+
+export const PageLayout = (props: PageLayoutProps): ReactElement => {
+  const { children } = props;
+
   return (
     <>
       <Navbar />
+      {children}
       <Footer />
     </>
   );
