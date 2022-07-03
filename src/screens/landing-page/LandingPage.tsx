@@ -5,14 +5,13 @@ import { PageLayout } from "../../components";
 import { Grid } from "@mui/material";
 
 import Banner from "./banner";
+import { Body } from "../../layout/Body";
 
 export const LandingPage = (): ReactElement => {
   return (
     <>
       <PageLayout>
-        <Grid>
-          <Banner />
-        </Grid>
+       <Body/>
       </PageLayout>
     </>
   );
