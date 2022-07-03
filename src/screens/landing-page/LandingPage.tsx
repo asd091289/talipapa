@@ -13,6 +13,7 @@ export const LandingPage = (): ReactElement => {
     <>
       <PageLayout>
         <ProductSection />
+        {/* <div></div> */}
       </PageLayout>
     </>
   );
