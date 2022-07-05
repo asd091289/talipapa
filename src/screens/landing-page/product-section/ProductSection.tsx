@@ -67,7 +67,7 @@ export const ProductSection = (): ReactElement => {
                   </div>
                   <div className="mt-4 flex justify-between">
                     <div>
-                      <h3 className="text-sm text-gray-700">
+                      {/* <h3 className="text-sm text-gray-700">
                         <a
                           href={product.href}
                           className="text-primary text-lg font-bold"
@@ -78,7 +78,7 @@ export const ProductSection = (): ReactElement => {
                           />
                           {product.name}
                         </a>
-                      </h3>
+                      </h3> */}
                       <p className="mt-1 text-sm text-gray-500">
                         {product.description}
                       </p>
